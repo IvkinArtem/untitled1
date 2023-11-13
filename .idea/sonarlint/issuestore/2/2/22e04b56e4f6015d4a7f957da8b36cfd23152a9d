@@ -1,15 +1,15 @@
 
 Q
-java:S3740"/Provide the parametrized type for this generic.(å£…Äûÿÿÿÿ8§Ô×¿¼1
+java:S3740"/Provide the parametrized type for this generic.(å£…Äûÿÿÿÿ8…âÃ¼1
 Q
-java:S3740"/Provide the parametrized type for this generic.(Ğˆ•¼şÿÿÿÿ8§Ô×¿¼1
+java:S3740"/Provide the parametrized type for this generic.(Ğˆ•¼şÿÿÿÿ8†âÃ¼1
 L
-java:S3740%"/Provide the parametrized type for this generic.(şæÃŸ8™¼‰Â¼1
+java:S3740("/Provide the parametrized type for this generic.(şæÃŸ8†âÃ¼1
 w
-java:S1450"URemove the "driver" field and declare it as a local variable in the relevant methods.(å£…Äûÿÿÿÿ8·Ô×¿¼1
-]	java:S125"<This block of commented-out lines of code should be removed.(Ùà±‚úÿÿÿÿ8ºÔ×¿¼1
-]	java:S125&"<This block of commented-out lines of code should be removed.(¿ñ¾Èûÿÿÿÿ8 ¦ªÀ¼1
+java:S1450"URemove the "driver" field and declare it as a local variable in the relevant methods.(å£…Äûÿÿÿÿ8ŒâÃ¼1
+]	java:S125"<This block of commented-out lines of code should be removed.(Ùà±‚úÿÿÿÿ8âÃ¼1
+]	java:S125)"<This block of commented-out lines of code should be removed.(¿ñ¾Èûÿÿÿÿ8âÃ¼1
 j
-java:S1128"HRemove this unused import 'io.appium.java_client.android.AndroidDriver'.(ç•Ø®ıÿÿÿÿ8¨¼‰Â¼1
+java:S1128"HRemove this unused import 'io.appium.java_client.android.AndroidDriver'.(ç•Ø®ıÿÿÿÿ8âÃ¼1
 W
-java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş8©¼‰Â¼1
+java:S1128":Remove this unused import 'java.util.concurrent.TimeUnit'.(Æ™ş8âÃ¼1

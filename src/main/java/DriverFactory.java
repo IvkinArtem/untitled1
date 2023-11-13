@@ -18,6 +18,7 @@ public class DriverFactory {
     public IOSDriver setUp() throws MalformedURLException {
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         desiredCapabilities.setCapability("platformName", "iOS");
+        desiredCapabilities.setCapability("automationName", "XCUITest");
         desiredCapabilities.setCapability("appium:ensureWebviewsHavePages", true);
         desiredCapabilities.setCapability("appium:nativeWebScreenshot", true);
         desiredCapabilities.setCapability("appium:newCommandTimeout", 3600);
@@ -33,6 +34,8 @@ public class DriverFactory {
         desiredCapabilities.setCapability(APP_PACKAGE, "com.apple.MobileAddressBook");
 
         URL remoteUrl = new URL("http://localhost:4723/");//wd/hub
+
+
 
         driver = new IOSDriver(remoteUrl, desiredCapabilities);
         //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);

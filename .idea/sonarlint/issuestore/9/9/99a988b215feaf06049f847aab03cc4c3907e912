@@ -1,9 +1,9 @@
 
 O
-java:S2699"-Add at least one assertion to this test case.(ğÊç½üÿÿÿÿ8óíÁ¼1
+java:S2699"-Add at least one assertion to this test case.(ğÊç½üÿÿÿÿ8äèÓÃ¼1
 ©
-java:S3577"‹Rename class "firstContact" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(·ò¾ç8ƒÿæÁ¼1
+java:S3577"‹Rename class "firstContact" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(·ò¾ç8åèÓÃ¼1
 @
-java:S5786"Remove this 'public' modifier.(ğÊç½üÿÿÿÿ8ƒÿæÁ¼1
+java:S5786"Remove this 'public' modifier.(ğÊç½üÿÿÿÿ8åèÓÃ¼1
 ;
-java:S5786"Remove this 'public' modifier.(·ò¾ç8ƒÿæÁ¼1
+java:S5786"Remove this 'public' modifier.(·ò¾ç8åèÓÃ¼1

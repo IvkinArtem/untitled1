@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 public class firstContact extends AbstractTest{
     @Test
     public void firstContact() {
-        WebElement contacts = (WebElement) super.driver.findElement(By.xpath("//XCUIElementTypeStaticText[@name='Conacts']"));
+        WebElement contacts = (WebElement) driver.findElement(By.xpath("//XCUIElementTypeStaticText[@name='Contacts']"));
         contacts.isDisplayed();
 
         WebElement firstContact = (WebElement) driver.findElement(By.xpath("//XCUIElementTypeCell[@name=\"John Appleseed\"]"));

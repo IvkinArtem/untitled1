@@ -4,6 +4,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 
 import java.net.MalformedURLException;
 
@@ -12,7 +13,7 @@ public class AbstractTest {
     public IOSDriver driver;
     private DriverFactory driverFactory = new DriverFactory();
 
-    @Before
+    @BeforeEach
     public void setDriver() throws MalformedURLException {
         driver = driverFactory.setUp();
 
