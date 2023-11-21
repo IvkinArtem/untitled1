@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class firstContact extends AbstractTestIos {
+public class FirstContactTest extends AbstractTestIos {
     @Test
     public void firstContact() {
         WebElement contacts = (WebElement) driver.findElement(By.xpath("//XCUIElementTypeStaticText[@name='Contacts']"));

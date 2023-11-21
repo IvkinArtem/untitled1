@@ -9,16 +9,17 @@ import java.net.MalformedURLException;
 
 public class AbstractTestAndroid {
 
-    public AndroidDriver driverAndroid;
+    public AndroidDriver driver;
     private DriverFactoryAndroid driverFactoryAndroid = new DriverFactoryAndroid();
 
     @BeforeEach
     public void setDriver() throws MalformedURLException {
-        driverAndroid = driverFactoryAndroid.setUp();
+        System.out.println("this");
+        driver = driverFactoryAndroid.setUp();
 
     }
     @AfterEach
     public void tearDown() {
-        driverAndroid.quit();
+        driver.quit();
     }
 }
